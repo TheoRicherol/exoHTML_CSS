@@ -1,7 +1,23 @@
+/* *{border :1px solid black} */
+
+
 .container{
     display: flex;
     flex-direction: row;
 }
+
+.containerDouble{
+    display: flex;
+    flex-direction: row;
+}
+
+.redSide{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .greenyellow{
     height: 15%;
     width: 80%;
@@ -10,39 +26,39 @@
 .lightblue{
     height: 15%;
     width: 20%;
-    background-color: lightblue ;
+    background-color: lightblue;
 }
 .red{
-    height: 15% ;
+    height: 30% ;
     width: 40%;
     background-color: red;
 }
 .orange{
     height: 15%;
-    width: 30%;
+    width: 50%;
     background-color: orange;
 }
 .gray{
     height: 15%;
-    width: 30%;
+    width: 50%;
     background-color: gray;
 }
 .amber{
     height: 15%;
-    width: 20%;
+    width: 33.33%;
     background-color: sandybrown;
 }
 
 .green{
 
     height: 15%;
-    width: 20%;
+    width: 33.33%;
     background-color: green;
 }
 
 .darkred{
     height: 15%;
-    width: 20%;
+    width: 33.33%;
     background-color: sienna;
 }
 .grey{
