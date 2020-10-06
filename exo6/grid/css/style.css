@@ -4,13 +4,14 @@
 .container{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(6,20vh);
+    grid-template-rows: repeat(5,15vh);
     justify-content: stretch;
 }
 
 .greenyellow{
     background-color: greenyellow;
     grid-area: 1/8/1/1 ;
+
 }
 
 .lightblue{

@@ -1,14 +1,20 @@
 /* *{border :1px solid black} */
 
+body,html{
+    width: 100%;
+    height: 100%;
+}
 
 .container{
     display: flex;
     flex-direction: row;
+    height: 10% ;
 }
 
 .containerDouble{
     display: flex;
     flex-direction: row;
+    height: 40%;
 }
 
 .redSide{
@@ -19,50 +25,48 @@
 }
 
 .greenyellow{
-    height: 15%;
     width: 80%;
     background-color: greenyellow;
 }
 .lightblue{
-    height: 15%;
     width: 20%;
     background-color: lightblue;
 }
 .red{
-    height: 30% ;
+
     width: 40%;
     background-color: red;
 }
 .orange{
-    height: 15%;
+    height: 50%;
     width: 50%;
     background-color: orange;
 }
 .gray{
-    height: 15%;
+    height: 50%;
     width: 50%;
     background-color: gray;
 }
 .amber{
-    height: 15%;
+    height: 50%;
     width: 33.33%;
     background-color: sandybrown;
 }
 
 .green{
 
-    height: 15%;
+    height: 50%;
     width: 33.33%;
     background-color: green;
 }
 
 .darkred{
-    height: 15%;
+    height: 50%;
     width: 33.33%;
     background-color: sienna;
 }
 .grey{
-    height: 45%;
+    height: 40% ;
     width: 100%;
     background-color: grey;
 }
